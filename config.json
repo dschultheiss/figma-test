@@ -4,7 +4,7 @@
       "scss": {
         "transformGroup": "css",
         "prefix": "c24",
-        "buildPath": "build/css/",
+        "buildPath": "css/",
         "files": [{
           "destination": "_variables.css",
           "format": "css/variables"
