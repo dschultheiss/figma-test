@@ -1,16 +1,77 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="build/css/_variables.css">
+        <style type="text/css"> 
+        body {
+            display:flex;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            font-family: Lato;
+        }
+         .card {
+            width: 480px;
+            background-color: var(--c24-global-white);
+            border-radius: 6px;
+            padding:  var(--c24-global-spacing-xl);
+            box-shadow: 5px 10px 20px rgba(3,41,76,0.1);
+        } 
+        .wrapper {
+            position: relative;
+            display:flex;
+            flex-direction: column;
+            flex-grow: 1;
+            align-items: center;
+        }
+        .stack {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            gap: var(--c24-global-spacing-s);
+            margin-top: var(--c24-global-spacing-m);
+        }
+        h3, p {
+            margin: 0;
+            padding: 0;
+        }
+        .image {
+            width: 50%;
+        }
+        .close-icon{
+            position: absolute;
+            top: -16px;
+            right: -16px;
+        }
+        button {
+            margin-top: var(--c24-global-spacing-m);
+            background-color: var(--c24-global-default);
+            height: 40px;
+            border: none;
+            color: var(--c24-global-white);
+            text-transform: uppercase;
+            font-size: 14px;
+            padding: 0 var(--c24-global-spacing-s);
+            border-radius: 4px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px; line-height: 21px;
+        }
+        </style>
+    </head>
     <body>
-
-
         <div class="card">
             <div class="wrapper">
+                <img src="assets/x.svg" class="close-icon">
                 <img class="image" src="assets/picture.svg">
                 <div class="stack">
-                    <h3>This is a headline</h3>
-                    <p>For some reason there is a mistake with your text</p>
+                    <h3>Whoops! You need to upgrade to acess this feature</h3>
+                    <p>This feature is not available for your plan. Please, upgrade to Premium to be able to create something.</p>
                 </div>
-                <button>Test Button</button>
+                <button>Mehr erfahren</button>
             </div>
         </div>
         

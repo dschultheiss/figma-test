@@ -1,0 +1,28 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 27 May 2022 13:27:14 GMT
+ */
+
+:root {
+  --c24-global-primary: #c39052;
+  --c24-global-text: #03181c;
+  --c24-global-default: #04293a;
+  --c24-global-subhigh: #f2f4f5;
+  --c24-global-primary-low: #896c42;
+  --c24-global-white: #ffffff;
+  --c24-global-link: #2683ae;
+  --c24-global-textlink: #81949c;
+  --c24-global-line: #cdd4d8;
+  --c24-global-sublight: #e6eaec;
+  --c24-global-black: #000000;
+  --c24-global-line-inverted: #294c5e;
+  --c24-global-success: #51a700;
+  --c24-global-error: #b30000;
+  --c24-global-warning: #e89508;
+  --c24-global-spacing-xs: 8px;
+  --c24-global-spacing-s: 16px;
+  --c24-global-spacing-m: 24px;
+  --c24-global-spacing-l: 32px;
+  --c24-global-spacing-xl: 48px;
+  --c24-global-spacing-2xl: 64px;
+}
