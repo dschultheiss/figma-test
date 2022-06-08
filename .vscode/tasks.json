@@ -1,0 +1,16 @@
+{ "version": "2.0.0"
+    , "command": "sh"
+    , "isShellCommand": true
+    , "showOutput": "always"
+    , "args": [ "-c" ]
+    , "tasks":
+      [ { "taskName": "Pull From Github"
+        , "suppressTaskName": true
+        , "args": [ "\"git pull origin main && style-dictionary build\"" ]
+        }
+      , { "taskName": "Push To Github"
+        , "suppressTaskName": true
+        , "args": [ "\"git add . && git commit -m 'V' && git push origin main && git pull origin main\"" ]
+        }
+      ]
+    }
