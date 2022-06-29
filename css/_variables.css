@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Wed, 08 Jun 2022 14:36:23 GMT
+ * Generated on Wed, 29 Jun 2022 14:21:31 GMT
  */
 
 :root {
-  --c24-global-primary: #fc0;
+  --c24-global-primary: #be0cb3;
   --c24-global-text: #03181C;
   --c24-global-default: #04293a;
   --c24-global-subhigh: #f2f4f5;
@@ -32,4 +32,18 @@
   --c24-global-size-xl: 50px;
   --c24-global-size-2xl: 64px;
   --c24-global-sm: 16;
+  --c24-global-shadow2: [object Object];
+  --c24-global-shadow1: [object Object];
+  --c24-global-font-families-lato: Lato;
+  --c24-global-line-heights-0: AUTO;
+  --c24-global-font-weights-lato-0: Bold;
+  --c24-global-font-weights-lato-1: Regular;
+  --c24-global-font-size-0: 14;
+  --c24-global-font-size-1: 40;
+  --c24-global-letter-spacing-0: 0%;
+  --c24-global-paragraph-spacing-0: 0;
+  --c24-global-headline-3: [object Object];
+  --c24-global-body-text: [object Object];
+  --c24-global-text-case-none: none;
+  --c24-global-text-decoration-none: none;
 }
