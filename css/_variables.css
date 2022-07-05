@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Jul 2022 09:44:01 GMT
+ * Generated on Tue, 05 Jul 2022 13:31:45 GMT
  */
 
 :root {
-  --c24-global-primary: #c39052;
+  --c24-global-primary: #ec1d09;
   --c24-global-text: #03181C;
   --c24-global-default: #04293a;
   --c24-global-subhigh: #f2f4f5;
@@ -31,7 +31,7 @@
   --c24-global-size-l: 40px;
   --c24-global-size-xl: 50px;
   --c24-global-size-2xl: 64px;
-  --c24-global-sm: 16;
+  --c24-global-sm: 24;
   --c24-global-shadow2: [object Object];
   --c24-global-shadow1: [object Object];
   --c24-global-font-families-lato: Lato;
